@@ -1,0 +1,27 @@
+# 一个防护：开源包里绝不该出现的东西
+*.pyc
+__pycache__/
+*.log
+tmp/
+.env
+.venv/
+
+# 个人数据——如果你把自己的账本放进来，别提交
+memory/self/
+memory/stock/
+memory/claims/
+memory/system/
+*.bak
+*.bak-*
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 我自己的：真实日记、简历、私钥
+summaries-real/
+*.key
+*.pem
+.credentials*

@@ -1,0 +1,58 @@
+{
+ "generated": "2026-01-09T10:00:00",
+ "counts": {
+  "total": 3,
+  "feedback": 2,
+  "user": 1,
+  "project": 0,
+  "reference": 0,
+  "mine": 0,
+  "superseded": 0,
+  "weak": 0,
+  "strong": 3,
+  "summaries": 1,
+  "tiers": 0
+ },
+ "facts": [
+  {
+   "id": "fact-0001demo",
+   "title": "验收点必须能指给别人看",
+   "type": "feedback",
+   "tags": [
+    "判据",
+    "验收",
+    "工程"
+   ],
+   "strength": 3,
+   "file": "fact-0001demo.md",
+   "rule": false,
+   "superseded_by": ""
+  },
+  {
+   "id": "fact-0002demo",
+   "title": "自己出题自己判卷，等于没判",
+   "type": "feedback",
+   "tags": [
+    "自审",
+    "验收",
+    "外骨骼"
+   ],
+   "strength": 3,
+   "file": "fact-0002demo.md",
+   "rule": false,
+   "superseded_by": ""
+  },
+  {
+   "id": "fact-0003demo",
+   "title": "他要结论和证据，不要过程噪音",
+   "type": "user",
+   "tags": [
+    "沟通"
+   ],
+   "strength": 4,
+   "file": "fact-0003demo.md",
+   "rule": false,
+   "superseded_by": ""
+  }
+ ]
+}
